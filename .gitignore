@@ -1,0 +1,10 @@
+build/
+dist/
+workspace/
+.venv/
+__pycache__/
+*.pyc
+*.user
+*.log
+SLX_SynthForge_PowerBoard/*-backups/
+SLX_SynthForge_PowerBoard/*.kicad_prl

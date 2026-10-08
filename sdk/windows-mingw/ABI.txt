@@ -1,0 +1,1 @@
+SLX SynthForge core ABI 4. Windows x64, Qt 6.12.0, MinGW GCC 13.1.0. Match the compiler/Qt/runtime exactly. Private sources are excluded.

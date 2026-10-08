@@ -1,0 +1,808 @@
+{
+  "acquired_at": "2026-10-08T15:39:34Z",
+  "acquisition": "Fixed inspection view at 640 × 480; 3D orbit is for exploration",
+  "asset_sha256": "2b8d1b42b0c3fa19607e4e223a1dcc98c959940ffe3970a5c8876d2bcc852413",
+  "components": 46,
+  "decision": "DEFECT",
+  "defects": 1,
+  "edits_at_capture": [
+    {
+      "dx_mm": 1.7,
+      "dy_mm": 0.4,
+      "reference": "U4",
+      "removed": false,
+      "rotation_deg": 17
+    }
+  ],
+  "model_id": "assembly-73df2f1c0216",
+  "model_sha256": "1ca2375dc963604619796ac7e241f884878e46b72fe08d318ad3198774d95564",
+  "passed": 45,
+  "results": [
+    {
+      "accepted": true,
+      "bbox": [
+        161,
+        78,
+        83,
+        95
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9999193246249749,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "J1",
+      "visible_reference_pixels": 3671
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        249,
+        133,
+        42,
+        38
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9935448718407721,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "F1",
+      "visible_reference_pixels": 513
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        240,
+        166,
+        37,
+        37
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994372569317119,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "D1",
+      "visible_reference_pixels": 415
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        278,
+        119,
+        73,
+        112
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9987727057685784,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C1",
+      "visible_reference_pixels": 3345
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        330,
+        140,
+        74,
+        112
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.998789185348629,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C2",
+      "visible_reference_pixels": 3339
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        143,
+        149,
+        62,
+        63
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9998018747373187,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "L1",
+      "visible_reference_pixels": 1741
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        200,
+        185,
+        54,
+        54
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9998391312554717,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "U3",
+      "visible_reference_pixels": 621
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        169,
+        245,
+        68,
+        63
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9998390181984019,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "U1",
+      "visible_reference_pixels": 1257
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        281,
+        233,
+        59,
+        62
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9998774457435257,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "U2",
+      "visible_reference_pixels": 995
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        262,
+        296,
+        49,
+        44
+      ],
+      "class_index": 2,
+      "class_name": "Position / appearance changed",
+      "confidence": 0.9999999980009484,
+      "decision": "DEFECT",
+      "note": "Visual change from nominal position or appearance",
+      "observable": true,
+      "reference": "U4",
+      "visible_reference_pixels": 521
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        152,
+        221,
+        39,
+        33
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9906173353179676,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "Y1",
+      "visible_reference_pixels": 277
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        71,
+        199,
+        90,
+        94
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9998512684532675,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "J3",
+      "visible_reference_pixels": 3832
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        214,
+        301,
+        47,
+        71
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9995775840589266,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "J4",
+      "visible_reference_pixels": 1011
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        383,
+        341,
+        83,
+        95
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9999105840568575,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "J2",
+      "visible_reference_pixels": 3690
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        388,
+        194,
+        63,
+        70
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9982046842154845,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "Q1",
+      "visible_reference_pixels": 1099
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        462,
+        223,
+        63,
+        71
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9982070502986531,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "Q2",
+      "visible_reference_pixels": 1094
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        358,
+        249,
+        62,
+        71
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9981822820984233,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "Q3",
+      "visible_reference_pixels": 1091
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        432,
+        278,
+        63,
+        71
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9982000819215551,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "Q4",
+      "visible_reference_pixels": 1099
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        381,
+        330,
+        44,
+        35
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9997589292615381,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "RSH1",
+      "visible_reference_pixels": 227
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        276,
+        348,
+        27,
+        25
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9990783018456678,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "D2",
+      "visible_reference_pixels": 132
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        338,
+        238,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9984198746198742,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C3",
+      "visible_reference_pixels": 66
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        158,
+        253,
+        21,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9985139023893406,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C4",
+      "visible_reference_pixels": 67
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        235,
+        256,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9983986624771595,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C5",
+      "visible_reference_pixels": 64
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        209,
+        304,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9986337540014899,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C6",
+      "visible_reference_pixels": 69
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        147,
+        204,
+        22,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9983215135183852,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C7",
+      "visible_reference_pixels": 64
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        219,
+        169,
+        22,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9983421429261475,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C8",
+      "visible_reference_pixels": 65
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        301,
+        291,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9973487742662269,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C9",
+      "visible_reference_pixels": 69
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        326,
+        274,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9982634084641864,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C10",
+      "visible_reference_pixels": 64
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        323,
+        309,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9984053018919808,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C11",
+      "visible_reference_pixels": 68
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        322,
+        349,
+        21,
+        21
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9983221118415007,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C12",
+      "visible_reference_pixels": 63
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        245,
+        229,
+        21,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9985278585285327,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C13",
+      "visible_reference_pixels": 65
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        270,
+        212,
+        22,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.998402828721516,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "C14",
+      "visible_reference_pixels": 63
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        399,
+        192,
+        21,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9996107321165436,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R1",
+      "visible_reference_pixels": 48
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        374,
+        236,
+        22,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9993810397613094,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R2",
+      "visible_reference_pixels": 48
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        473,
+        221,
+        21,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9992043685115658,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R3",
+      "visible_reference_pixels": 50
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        449,
+        265,
+        21,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994220791223197,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R4",
+      "visible_reference_pixels": 46
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        346,
+        288,
+        21,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994327546500976,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R5",
+      "visible_reference_pixels": 49
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        420,
+        317,
+        21,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.999139547094876,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R6",
+      "visible_reference_pixels": 48
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        227,
+        281,
+        22,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9993685890170408,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R7",
+      "visible_reference_pixels": 47
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        224,
+        307,
+        21,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9978288205733115,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R8",
+      "visible_reference_pixels": 22
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        251,
+        345,
+        21,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9993748947956248,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R9",
+      "visible_reference_pixels": 48
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        294,
+        362,
+        22,
+        20
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9996227794482913,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "R10",
+      "visible_reference_pixels": 49
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        138,
+        166,
+        20,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994534822722929,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "TP1",
+      "visible_reference_pixels": 38
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        260,
+        205,
+        20,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994534822722929,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "TP2",
+      "visible_reference_pixels": 38
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        318,
+        332,
+        20,
+        18
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.999465246718105,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "TP3",
+      "visible_reference_pixels": 40
+    },
+    {
+      "accepted": true,
+      "bbox": [
+        353,
+        373,
+        21,
+        19
+      ],
+      "class_index": 0,
+      "class_name": "Nominal",
+      "confidence": 0.9994590868802232,
+      "decision": "PASS",
+      "note": "Appearance matches the nominal reference",
+      "observable": true,
+      "reference": "TP4",
+      "visible_reference_pixels": 42
+    }
+  ],
+  "review": 0,
+  "schema": "slx.assembly-inspection.v1",
+  "scope": "RGB classifier trained against nominal CAD references; scores are uncalibrated",
+  "threshold": 0.8
+}

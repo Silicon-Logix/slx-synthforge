@@ -1,0 +1,29 @@
+{
+  "asset_sha256": "2b8d1b42b0c3fa19607e4e223a1dcc98c959940ffe3970a5c8876d2bcc852413",
+  "camera": {
+    "azimuth": -65,
+    "span": 133,
+    "tilt": 32
+  },
+  "edits": [
+    {
+      "dx_mm": 1.7,
+      "dy_mm": 0.4,
+      "reference": "U4",
+      "removed": false,
+      "rotation_deg": 17
+    }
+  ],
+  "files": {
+    "capture.png": "0c001bc231d998d7b88681d9c3044958b8c0c313fafabfbe308ad22f67faccca",
+    "inspection.json": "53338f524f386c46306fb0e9bb24afad3fa3785a3afde93c1cad610d45cda38a",
+    "model.json": "1ca2375dc963604619796ac7e241f884878e46b72fe08d318ad3198774d95564",
+    "nominal.png": "1d5bf7244c6eac338c381eb80605aef1a8d8b411ded35fddee055f0e69495b34"
+  },
+  "model_id": "assembly-73df2f1c0216",
+  "model_sha256": "1ca2375dc963604619796ac7e241f884878e46b72fe08d318ad3198774d95564",
+  "name": "Editable-board improvement validation",
+  "saved_at": "2026-10-08T15:39:34Z",
+  "schema": "slx.experiment.v1",
+  "selected_reference": "U4"
+}

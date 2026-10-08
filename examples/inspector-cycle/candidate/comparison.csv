@@ -1,0 +1,11 @@
+metric,baseline,candidate
+samples,1076,1076
+actual_defects,800,800
+actual_nominal,276,276
+accuracy,0.9228624535315985,0.9228624535315985
+missed_defects_raw,1,1
+false_alarms_raw,0,0
+escaped_defects,0,0
+false_alarms,0,0
+review,250,249
+coverage,0.7676579925650557,0.7685873605947955

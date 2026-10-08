@@ -1,0 +1,2888 @@
+{
+  "schema": "slx.inspector-comparison.v1",
+  "benchmark_sha256": "f7c2f27ca310b35d38f715cc809c4bba6cc33e8ff2fa869aecf0018dde8400bb",
+  "baseline_sha256": "0057f6fafb8bd304778abb397caa5b1956fb57e96cbb882f52f79933c897a1a0",
+  "candidate_sha256": "1ca2375dc963604619796ac7e241f884878e46b72fe08d318ad3198774d95564",
+  "baseline_id": "assembly-22ec7f3d61f8",
+  "candidate_id": "assembly-73df2f1c0216",
+  "threshold": 0.8,
+  "scope": "Synthetic component examples with observable RGB differences; fixed inspection camera. Scores uncalibrated.",
+  "baseline": {
+    "samples": 1076,
+    "actual_defects": 800,
+    "actual_nominal": 276,
+    "accuracy": 0.9228624535315985,
+    "coverage": 0.7676579925650557,
+    "missed_defects_raw": 1,
+    "false_alarms_raw": 0,
+    "escaped_defects": 0,
+    "false_alarms": 0,
+    "review": 250,
+    "confusion": [
+      [
+        276,
+        0,
+        0
+      ],
+      [
+        0,
+        256,
+        20
+      ],
+      [
+        1,
+        62,
+        461
+      ]
+    ]
+  },
+  "candidate": {
+    "samples": 1076,
+    "actual_defects": 800,
+    "actual_nominal": 276,
+    "accuracy": 0.9228624535315985,
+    "coverage": 0.7685873605947955,
+    "missed_defects_raw": 1,
+    "false_alarms_raw": 0,
+    "escaped_defects": 0,
+    "false_alarms": 0,
+    "review": 249,
+    "confusion": [
+      [
+        276,
+        0,
+        0
+      ],
+      [
+        0,
+        256,
+        20
+      ],
+      [
+        1,
+        62,
+        461
+      ]
+    ]
+  },
+  "control_baseline": {
+    "samples": 540,
+    "actual_defects": 402,
+    "actual_nominal": 138,
+    "accuracy": 0.9148148148148149,
+    "coverage": 0.7814814814814814,
+    "missed_defects_raw": 1,
+    "false_alarms_raw": 0,
+    "escaped_defects": 0,
+    "false_alarms": 0,
+    "review": 118,
+    "confusion": [
+      [
+        138,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        10
+      ],
+      [
+        1,
+        35,
+        228
+      ]
+    ]
+  },
+  "control_candidate": {
+    "samples": 540,
+    "actual_defects": 402,
+    "actual_nominal": 138,
+    "accuracy": 0.9148148148148149,
+    "coverage": 0.7814814814814814,
+    "missed_defects_raw": 1,
+    "false_alarms_raw": 0,
+    "escaped_defects": 0,
+    "false_alarms": 0,
+    "review": 118,
+    "confusion": [
+      [
+        138,
+        0,
+        0
+      ],
+      [
+        0,
+        128,
+        10
+      ],
+      [
+        1,
+        35,
+        228
+      ]
+    ]
+  },
+  "per_reference": {
+    "C1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "C10": {
+      "baseline": {
+        "samples": 23,
+        "actual_defects": 17,
+        "actual_nominal": 6,
+        "accuracy": 0.9130434782608695,
+        "coverage": 0.5652173913043478,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 23,
+        "actual_defects": 17,
+        "actual_nominal": 6,
+        "accuracy": 0.9130434782608695,
+        "coverage": 0.5652173913043478,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            9
+          ]
+        ]
+      }
+    },
+    "C11": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "C12": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      }
+    },
+    "C13": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.75,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.75,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "C14": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "C2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "C3": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.5,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 12,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.5,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 12,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      }
+    },
+    "C4": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            4,
+            8
+          ]
+        ]
+      }
+    },
+    "C5": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.6666666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 8,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "C6": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.8333333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 4,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.8333333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 4,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "C7": {
+      "baseline": {
+        "samples": 23,
+        "actual_defects": 17,
+        "actual_nominal": 6,
+        "accuracy": 0.9565217391304348,
+        "coverage": 0.6086956521739131,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 23,
+        "actual_defects": 17,
+        "actual_nominal": 6,
+        "accuracy": 0.9565217391304348,
+        "coverage": 0.6086956521739131,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            10
+          ]
+        ]
+      }
+    },
+    "C8": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "C9": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.5833333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.5833333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "D1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "D2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      }
+    },
+    "F1": {
+      "baseline": {
+        "samples": 22,
+        "actual_defects": 16,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 22,
+        "actual_defects": 16,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            10
+          ]
+        ]
+      }
+    },
+    "J1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 1,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            1,
+            0,
+            11
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 1,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            1,
+            0,
+            11
+          ]
+        ]
+      }
+    },
+    "J2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "J3": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "J4": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "L1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "Q1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "Q2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "Q3": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "Q4": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "R1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "R10": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.7083333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 7,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.7083333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 7,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "R2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.6666666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 8,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.6666666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 8,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "R3": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            5
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "R4": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9166666666666666,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            10
+          ]
+        ]
+      }
+    },
+    "R5": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      }
+    },
+    "R6": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.875,
+        "coverage": 0.625,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            9
+          ]
+        ]
+      }
+    },
+    "R7": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.9583333333333334,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            1,
+            11
+          ]
+        ]
+      }
+    },
+    "R8": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.75,
+        "coverage": 0.7916666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 5,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.75,
+        "coverage": 0.7916666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 5,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "R9": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 0.7916666666666666,
+        "coverage": 0.5416666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            5,
+            7
+          ]
+        ]
+      }
+    },
+    "RSH1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.75,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 6,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.7916666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 5,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "TP1": {
+      "baseline": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.3888888888888889,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.3888888888888889,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 11,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    "TP2": {
+      "baseline": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.6666666666666666,
+        "coverage": 0.6666666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 6,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.6666666666666666,
+        "coverage": 0.6666666666666666,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 6,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            6
+          ],
+          [
+            0,
+            0,
+            6
+          ]
+        ]
+      }
+    },
+    "TP3": {
+      "baseline": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.4444444444444444,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8333333333333334,
+        "coverage": 0.4444444444444444,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 10,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            3,
+            3
+          ]
+        ]
+      }
+    },
+    "TP4": {
+      "baseline": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8888888888888888,
+        "coverage": 0.5,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            4
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 18,
+        "actual_defects": 12,
+        "actual_nominal": 6,
+        "accuracy": 0.8888888888888888,
+        "coverage": 0.5,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 9,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            2,
+            4
+          ]
+        ]
+      }
+    },
+    "U1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "U2": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "U3": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "U4": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 1.0,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 0,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    },
+    "Y1": {
+      "baseline": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      },
+      "candidate": {
+        "samples": 24,
+        "actual_defects": 18,
+        "actual_nominal": 6,
+        "accuracy": 1.0,
+        "coverage": 0.9583333333333334,
+        "missed_defects_raw": 0,
+        "false_alarms_raw": 0,
+        "escaped_defects": 0,
+        "false_alarms": 0,
+        "review": 1,
+        "confusion": [
+          [
+            6,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0
+          ],
+          [
+            0,
+            0,
+            12
+          ]
+        ]
+      }
+    }
+  }
+}

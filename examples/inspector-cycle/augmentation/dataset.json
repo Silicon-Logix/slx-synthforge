@@ -1,0 +1,299 @@
+{
+    "asset_sha256": "2b8d1b42b0c3fa19607e4e223a1dcc98c959940ffe3970a5c8876d2bcc852413",
+    "classes": [
+        "nominal",
+        "missing",
+        "changed_pose"
+    ],
+    "feature_count": 16,
+    "features_sha256": "41d0141168ce8ac11b23abcf6600f98b0fcdc3fdfa40137bf97ec5d3ae8a75a7",
+    "groups": 6,
+    "purpose": "augmentation",
+    "samples": [
+        {
+            "capture_group": 0,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 0,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 0,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 1,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 0,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 1.9826883864465907,
+                "dy_mm": 0.4043136307498423,
+                "reference": "U4",
+                "rotation_deg": 5.0084805579797305
+            },
+            "index": 2,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 0,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.164304806972955,
+                "dy_mm": 1.0149624457690458,
+                "reference": "U4",
+                "rotation_deg": 7.698529907206126
+            },
+            "index": 3,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 1,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 4,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 1,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 5,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 1,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.103977523009431,
+                "dy_mm": 0.05404625299448784,
+                "reference": "U4",
+                "rotation_deg": 11.076417786171913
+            },
+            "index": 6,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 1,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.145563416732627,
+                "dy_mm": -0.25295067119129144,
+                "reference": "U4",
+                "rotation_deg": 17.97323331695767
+            },
+            "index": 7,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 2,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 8,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 2,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 9,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 2,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.2442028694994494,
+                "dy_mm": 0.07356274036582905,
+                "reference": "U4",
+                "rotation_deg": 20.20653625852701
+            },
+            "index": 10,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 2,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 1.7524043100718703,
+                "dy_mm": 0.056893596620952724,
+                "reference": "U4",
+                "rotation_deg": 9.057079365517719
+            },
+            "index": 11,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 3,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 12,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 3,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 13,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 3,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 1.3215193841471544,
+                "dy_mm": -0.03432674776732508,
+                "reference": "U4",
+                "rotation_deg": 23.8576566400307
+            },
+            "index": 14,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 3,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 1.1478089767689044,
+                "dy_mm": 0.5741466993894654,
+                "reference": "U4",
+                "rotation_deg": 18.903137450569375
+            },
+            "index": 15,
+            "reference": "U4",
+            "split": "train"
+        },
+        {
+            "capture_group": 4,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 16,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 4,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 17,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 4,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 1.7854123813726215,
+                "dy_mm": 0.3819838675302861,
+                "reference": "U4",
+                "rotation_deg": 28.284491922174528
+            },
+            "index": 18,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 4,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.2752300090551856,
+                "dy_mm": 0.828516065731132,
+                "reference": "U4",
+                "rotation_deg": 28.40906860747264
+            },
+            "index": 19,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 5,
+            "class_index": 0,
+            "edit": {
+                "reference": "U4"
+            },
+            "index": 20,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 5,
+            "class_index": 1,
+            "edit": {
+                "reference": "U4",
+                "removed": true
+            },
+            "index": 21,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 5,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.090948334055137,
+                "dy_mm": 0.14248126921886972,
+                "reference": "U4",
+                "rotation_deg": 24.74131676232124
+            },
+            "index": 22,
+            "reference": "U4",
+            "split": "validation"
+        },
+        {
+            "capture_group": 5,
+            "class_index": 2,
+            "edit": {
+                "dx_mm": 2.017387087786957,
+                "dy_mm": 0.7548739907103331,
+                "reference": "U4",
+                "rotation_deg": 6.927366772409213
+            },
+            "index": 23,
+            "reference": "U4",
+            "split": "validation"
+        }
+    ],
+    "schema": "slx.inspector-data.v1",
+    "seed": 381001147,
+    "split_policy": "Targeted train/validation only; no test samples"
+}

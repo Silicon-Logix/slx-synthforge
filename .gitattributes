@@ -1,0 +1,17 @@
+# Preserve byte-exact models, benchmarks, binaries and the release manifest.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.cpp text eol=lf
+*.h text eol=lf
+*.qml text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+*.cmake text eol=lf
+CMakeLists.txt text eol=lf
+*.svg text eol=lf
+*.qrc text eol=lf
+*.rc text eol=lf
+
+# Keep upstream license formatting verbatim.
+licenses/** -whitespace

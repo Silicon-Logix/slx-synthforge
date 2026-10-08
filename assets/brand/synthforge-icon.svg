@@ -1,0 +1,7 @@
+<!--
+Silicon LogiX / SLX SynthForge
+Copyright (c) 2026 Marco Pezzullo (Silicon LogiX).
+Author: Marco Pezzullo
+License: Silicon LogiX Evaluation License 1.0. See LICENSE.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#2948ff"/><stop offset="1" stop-color="#b02fe2"/></linearGradient></defs><rect x="1" y="1" width="62" height="62" rx="15" fill="url(#g)"/><path d="M32 12 49 22v20L32 52 15 42V22Z" fill="none" stroke="white" stroke-width="2.5"/><path d="m15 22 17 10 17-10M32 32v20" fill="none" stroke="white" stroke-width="2.5"/><circle cx="32" cy="32" r="6" fill="#72ecdf"/><path d="M8 15v-5h7M49 8h5v7M56 49v5h-7M15 56h-5v-7" fill="none" stroke="#e7eaff" stroke-width="2" stroke-linecap="round"/></svg>
